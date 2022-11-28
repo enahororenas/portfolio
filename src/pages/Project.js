@@ -16,7 +16,7 @@ const Project = () => {
     {
       name: "Personal Portfolio",
       des: "Designed and developed a personal portfolio website to highlight my skills, accomplishments and completed projects",
-      projectlink: "https://react-company-profile.netlify.app/",
+      projectlink: "https://enahoro.onrender.com",
       techused: [{techname: "Node JS"},{techname: "Expres Js"},{techname: "React Js"},{techname: "Javascript"}],
     },
 
