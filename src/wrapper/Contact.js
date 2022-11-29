@@ -78,7 +78,6 @@ h5{
 footer{
 	position: relative;
 	width: 100%;
-	height: 400px;
 	background: #101010;
 	display: flex;
 	flex-direction: column;
@@ -117,6 +116,15 @@ footer{
 	font-size: 75px;
 	width: 1130px;
     }
+	footer{
+		height: 400px;
+	}
+	.bottom {
+	font-size: 40px;
+	}
+	.emailhead p{
+		font-size: 30px;
+	}
 }
 
 @media (max-width:1500px) {
@@ -124,6 +132,16 @@ footer{
     margin-top: 20px;
     color: white;
     }
+	footer{
+		height: 250px;
+	}
+	.bottom{
+		margin-top: -10px;
+	}
+	.emailhead p{
+		font-size: 18px;
+	}
+	
 }
 
 
