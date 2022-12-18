@@ -12,14 +12,18 @@ const Project = () => {
         {techname: "Node JS"},{techname: "Expres Js"},{techname: "React Js"},{techname: "Javascript"}
       ],
     },
-
     {
       name: "Personal Portfolio",
       des: "Designed and developed a personal portfolio website to highlight my skills, accomplishments and completed projects",
       projectlink: "https://enahoro.onrender.com",
       techused: [{techname: "Node JS"},{techname: "Expres Js"},{techname: "React Js"},{techname: "Javascript"}],
     },
-
+    {
+      name: "Photo Gallery App",
+      des: "Designed and developed a photo gallery website where users can store and view images",
+      projectlink: "https://pwgallery.onrender.com",
+      techused: [{techname: "Node JS"},{techname: "Expres Js"},{techname: "React Js"},{techname: "Javascript"}],
+    },
   ];
 
   return (
