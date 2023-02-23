@@ -19,6 +19,10 @@ text-align: center;
 justify-content: center;
 }
 
+.row{
+    padding-bottom: 50px;
+}
+
 .grid-container-element { 
     display: grid; 
     grid-template-columns: 1fr 1fr; 
