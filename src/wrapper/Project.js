@@ -5,7 +5,7 @@ const Wrapper = styled.nav`
 
 .general{   
   background-color: #191919;  
-  
+  padding-bottom: 50px;
 }
 
 .section-title{
