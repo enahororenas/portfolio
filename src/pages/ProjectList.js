@@ -32,12 +32,12 @@ const ProjectList = ({ name, des, projectlink, techused }) => {
               </div>
             ))}
         </div>
-        
+      {projectlink &&
       <div className="cover">
         <div className="demo" onClick={() => openInNewTab(projectlink)}>
           <p className='link'><u>Visit Website</u></p>
           </div>
-      </div>        
+      </div> }
             
        
       </div>
