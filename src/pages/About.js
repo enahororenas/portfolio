@@ -12,9 +12,9 @@ const About = () => {
 			<div className="about-text">
 				<h2 className="header">About Me</h2>
 				<h5>Developer <span>& Designer</span></h5>
-				<p>I am a goal-oriented, results driven software engineer with experience in designing and developing 
-         software solutions.Proven ability to leverage full-stack knowledge and experience 
-        to build interactive and user-centered website designs. 
+				<p>I am a goal-oriented, results driven software engineer with experience in designing, developing and
+         providing software solutions. 
+		 Proven ability to leverage full-stack knowledge and experience to build interactive and user-centered websites. 
         </p>
 				<button className="center-button" type="button"> <Link to="contactsection"  spy={true}  smooth={true}   duration={100}   offset={-100}>Let's Talk</Link></button>
 			</div>
