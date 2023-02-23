@@ -14,7 +14,7 @@ const WorkExperience = () => {
 'Developed software flow to rename and enforce naming convention for a full-chip database while maintaining connectivity',
 'Developed a data mining platform to highlight (critical net changes) design stability over the lifecycle of previous projects to enable designers prepare for future projects.',
 'Developed API’s for querying waveform database and processing wave reports.',
-'Develops and maintains scripts, tools and utilities to enhance designer efficiency.',
+'Develops scripts, tools and utilities to automate and enhance designer efficiency.',
 'Developed a GUI platform to enable designers cross probe waveforms and circuits.',
 'Developed a web report tool to analyze the project database hourly and generate report of possible errors. A waiver methodology is also implemented to enable designers waive violations.',
 'Developed reliability checks to ensure all devices are operating within the safe operating zones (SOA) and report worst-case violations',
