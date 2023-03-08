@@ -27,6 +27,7 @@ const Project = () => {
     {
       name: "Web scrapping app",
       des: "Built a web scraping app using python to scrape for pdf files in a website",
+      projectlink: "https://github.com/enahororenas/crawler",
       techused: [
         {techname: "Python"},
       ],
