@@ -25,7 +25,7 @@ const Home = () => {
 		<div className="content">
 			<h4 className="hsize1">Hello, my name is</h4>
 			<h1 className="header">Enahoro <span>Oriero</span></h1>
-			<h3 className="hsize1">I'am a Full Stack Web Developer.</h3>
+			<h3 className="hsize1">I'am a Full Stack Software Engineer</h3>
       <div className="button-for-action">
             <Link to="contactsection"  spy={true}  smooth={true}   duration={100}   offset={-100}>
               <div className="hire-me-button">Contact Me</div>
