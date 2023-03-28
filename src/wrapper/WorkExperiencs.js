@@ -67,7 +67,7 @@ const Wrapper = styled.nav`
 
 .tech-skills p:hover{
     background-color: gold;
-    cursor: pointer;
+    //cursor: pointer;
     color: black;
 }
 .date-class{
