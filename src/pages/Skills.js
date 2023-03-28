@@ -5,8 +5,9 @@ import Wrapper from "../wrapper/Skills";
 const Skills = () => {
   
   const data = [
-    { name: "Python"},{name: "Javascript"},{ name: "Perl"},{ name: "C"},{ name: "C Shell"},{name: "TCL"},
-    {name: "Full Stack Development"},{name: "Node js"},{name: "React js"},{name: "Express js"},
+    { name: "Python"},{name: "Javascript"},{name: "Node js"},{name: "React js"},{name: "Express js"},
+    { name: "MongoDB"},{ name: "PostgreSQL"},{ name: "HTML"},{ name: "CSS"},
+    { name: "C"},{ name: "C Shell"},{ name: "Java"},{ name: "Perl"},{name: "TCL"},
   ];
 
   //const colors = ["#F1C40F","#4B088A","#8181F7","#FE2EF7","#585858","#800000","#0088FE","#00C49F","#FFBB28","#FF8042","#001CCE","#00C79F","#FFBB24","#FF1042","#FF1042"];
