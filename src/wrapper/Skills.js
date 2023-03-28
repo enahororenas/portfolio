@@ -67,7 +67,7 @@ button{
 button:hover{
 	background-color: transparent;
 	border: 2px solid #f9004d;
-	cursor: pointer;
+	//cursor: pointer;
 }
 
 .loadmore{
