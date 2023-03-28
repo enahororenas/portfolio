@@ -11,13 +11,13 @@ const Home = () => {
 		<nav>
       <h2 className="logo">Portfo<span>lio</span></h2>
 			<ul>
-				<li><Link to="home">Home</Link></li>
-				<li><Link to="about">Bio</Link></li>
-				<li><Link to="workexperience">Work-Experience</Link></li>
-				<li><Link to="skill">Skills</Link></li>
-        <li><Link to="education">Education</Link></li>
-        <li><Link to="project">Projects</Link></li>
-				<li><Link to="contactsection">Contact Me</Link></li>
+				<li><Link className="buttonlinks" to="home">Home</Link></li>
+				<li><Link className="buttonlinks" to="about">Bio</Link></li>
+				<li><Link className="buttonlinks" to="workexperience">Work-Experience</Link></li>
+				<li><Link className="buttonlinks" to="skill">Skills</Link></li>
+        <li><Link className="buttonlinks" to="education">Education</Link></li>
+        <li><Link className="buttonlinks" to="project">Projects</Link></li>
+				<li><Link className="buttonlinks" to="contactsection">Contact Me</Link></li>
 			</ul>
 		</nav>
     </div>
