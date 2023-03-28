@@ -34,6 +34,8 @@ nav ul li a:hover{
 	color: white;
 	font-size: 35px;
 	letter-spacing: 1px;
+}
+.buttonlinks{
 	cursor: pointer;
 }
 span{
