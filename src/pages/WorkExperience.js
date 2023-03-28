@@ -9,18 +9,21 @@ const WorkExperience = () => {
   const data = [
     {
       companyname: "Intel",
-      position: "CAD Engineer",
+      position: "Software Engineer",
       des: [
-'Developed software flow to rename and enforce naming convention for a full-chip database while maintaining connectivity',
-'Developed a data mining platform to highlight (critical net changes) design stability over the lifecycle of previous projects to enable designers prepare for future projects.',
-'Developed API’s for querying waveform database and processing wave reports.',
-'Develops scripts, tools and utilities to automate and enhance designer efficiency.',
-'Developed a GUI platform to enable designers cross probe waveforms and circuits.',
-'Developed a web report tool to analyze the project database hourly and generate report of possible errors. A waiver methodology is also implemented to enable designers waive violations.',
-'Developed reliability checks to ensure all devices are operating within the safe operating zones (SOA) and report worst-case violations',
+      'Developed a web app to store net properties in PostgreSql database. (React, Python, PostgreSql).',
+      'Developed a web app to analyze the project database hourly and generate report of possible errors. A waiver methodology is also implemented to enable designers waive violations (React, Python, PostgreSql).',
+      'Developed API’s for querying waveform database and processing wave reports (Python).',
+      'Developed a GUI platform to enable designers cross probe waveforms and circuits (Python).',
+      'Developed API to rename and enforce naming convention for a full-chip database while maintaining connectivity (Python, Perl).',
+      'Developed a data mining platform to highlight (critical net changes) design stability over the lifecycle of previous projects to enable designers prepare for future projects (Python).',
+      'Developed a measurement-based flow to validate critical array and design validation parameters for next generation non-volatile memory solutions (Python).',
+      'Developed scripts, tools to automate manual processes to enhance designer efficiency (Python, TCL, Perl).',
       ],
       year: "2019-Present",
-      techskills: [{techname: "Python"},{techname: "Perl"},{techname: "C"}],
+      techskills: [{techname: "Python"},{techname: "Javascript (React, ExpressJS, Nodejs)"},
+      {techname: "MongoDB"},{techname: "PostgreSQL"},{techname: "HTML/CSS"},{techname: "Unix"},
+      {techname: "Perl"},{techname: "C"},{techname: "TCL"}],
     },
     {
       companyname: "Intel",
@@ -32,7 +35,7 @@ const WorkExperience = () => {
     'FPGA debug to validate image programming and bitstream programming',
       ],
       year: "July 2018- Dec 2018",
-      techskills: [{techname: "Python"},{techname: "Perl"},{techname: "C"}],
+      techskills: [{techname: "Python"},{techname: "Perl"},{techname: "C"},{techname: "TCL"}],
     },
     {
       companyname: "Tennessee Technological University",
@@ -87,7 +90,7 @@ const WorkExperience = () => {
                     key={index}
                   >
                     <div className="tech-skills">
-                      <p>{tec.techname}</p>
+                      <p style={{fontWeight:'bold'}}>{tec.techname}</p>
                     </div>
                   </div>
                 ))}
