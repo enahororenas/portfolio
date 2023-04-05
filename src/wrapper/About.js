@@ -8,7 +8,7 @@ const Wrapper = styled.nav`
  margin-left: 0px;
  height: fit-content;
 }
-
+.header{font-size: 30px;}
 .about{
 	width: 100%;
 	padding: 100px 0px;
@@ -88,7 +88,7 @@ button:hover{
 }
 .about-text h2{
 	color: white;
-	font-size: 75px;
+	//font-size: 75px;
 	text-transform: capitalize;
 	margin-bottom: -20px;
     margin-top: -20px;
@@ -111,7 +111,7 @@ button:hover{
 }
 @media (max-width:1500px) {
 	.header{
-	font-size: 30px;
+	//font-size: 30px;
 	color: white;
 	text-transform: capitalize;
 	text-align: center;

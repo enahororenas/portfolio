@@ -7,7 +7,7 @@ const Wrapper = styled.nav`
   background-color: #191919;  
   padding-bottom: 50px;
 }
-
+.header{font-size: 30px;}
 .section-title{
 display: flex;
 text-align: center;
@@ -38,34 +38,43 @@ justify-content: center;
     color:#fcfc;
     font-size: large;
   }
-
+  .cover{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
 .tech-used-in-project {
     //margin-top: 20px;
     //margin: 5px;
     display: flex;
-    //align-items: center;
+    //align-items: left;
 	  justify-content: space-evenly;
-    //align-self: left;
-    gap:40px;
+    //gap:80px;
+    margin-bottom: 0px;
   }
-  
-
-
-.link{
-  color: black;
-}
-
-  
+  .link-parent{
+    margin-top: -20px;
+  }
+.stack{
+  //color: white;
+  color:#f9004d;
+    margin: 5px;
+    //font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    //margin-bottom: 20px;
+    font-size: larger;
+    font-weight: bold;
+} 
   .demo {
     margin-top: 25px;
-    background-color:#f9004d;
+    //background-color:#f9004d;
+    //color: white;
     width: 180px;
-    padding: 10px;
+    //padding: 10px;
     border-radius: 90px;
     cursor: pointer;
     text-align: center;
-    padding: 25px 0;
-    font-size: 17px;
+    //padding: 25px 0;
+    font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
@@ -74,17 +83,29 @@ justify-content: center;
     transition-duration: 1s;
   }
   
-  .cover{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
+ 
+.link{
+  //color: white;
+  color:#fcfc;
+  width: fit-content;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;  
+  font-size: larger;
+  font-weight: bold;
+  
+} 
+
+.link:hover {
+  color:#f9004d;
+    transition-duration: 1s;
   }
 
   @media (min-width: 1500px) {
   .section-title h2{
     margin-top: 20px;
     color: white;
-	  font-size: 75px;
+	  //font-size: 75px;
 	  width: 1130px;
     }
     .skill{

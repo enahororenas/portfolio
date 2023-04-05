@@ -2,17 +2,18 @@ import styled from 'styled-components'
 const Wrapper = styled.nav`
 
 
-
 .contact-section{
     background: #101010;
 }
-
+.footcontrol{
+	height: fit-content;
+}
 .section-title{
 display: flex;
 text-align: center;
 justify-content: center;
 }
-
+.header {  font-size: 30px;}
 .cover{
     margin-left: 150px;
     color: white;
@@ -39,15 +40,15 @@ justify-content: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 300px;
+	min-height: 200px;
 }
 .card{
-	height: 225px;
+	height: 150px;
 	width: 335px;
-	padding: 20px 35px;
+	padding: 15px;
 	background: #191919;
 	border-radius: 20px;
-	margin: 15px;
+	//margin: 15px;
 	position: relative;
 	overflow: hidden;
 	text-align: center;
@@ -92,13 +93,11 @@ footer{
 	font-weight: bold;
 }
 
-.header {
-    //margin-bottom: 20px;
-}
+
 .emailhead {
     color: white;
     text-align: center;
-    margin-left: 20px;
+    //margin-left: 20px;
 }
 .email{
     color: inherit;
@@ -109,19 +108,29 @@ footer{
     color: white;
 }
 
+.git{
+	color: white;
+	font-size: large;
+	cursor: pointer;
+}
+
+.link:hover {
+    color: yellow;
+    transition-duration: 1s;
+  }
+  
+
 @media (min-width: 1500px) {
 .section-title h2{
     margin-top: 20px;
     color: white;
-	font-size: 75px;
+	//font-size: 75px;
 	width: 1130px;
     }
 	footer{
 		height: 400px;
 	}
-	.bottom {
-	font-size: 40px;
-	}
+
 	.emailhead p{
 		font-size: 30px;
 	}
@@ -136,12 +145,17 @@ footer{
 		height: 250px;
 	}
 	.bottom{
-		margin-top: -10px;
+		//margin-top: -10px;
 	}
 	.emailhead p{
 		font-size: 18px;
 	}
-	
+	.pcontrol{
+	//padding: 20px;
+	}
+	.footcontrol{
+		//margin-bottom: 50px;
+	}
 }
 
 

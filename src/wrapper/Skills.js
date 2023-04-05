@@ -7,7 +7,7 @@ const Wrapper = styled.nav`
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
 }
-
+.header{font-size: 30px;}
 .techstack-section{
     height: auto;
     background-color: #191919;
@@ -97,7 +97,7 @@ button:hover{
     .section-title h2{
     margin-top: 20px;
     color: white;
-	font-size: 75px;
+	//font-size: 75px;
 	width: 1130px;
     }
 }

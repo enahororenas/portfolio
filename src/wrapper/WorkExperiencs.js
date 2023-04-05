@@ -6,7 +6,7 @@ const Wrapper = styled.nav`
 	width: 100%;
 	padding: 100px 0px;  
 }
-
+.header {font-size: 30px;}
 
 .cover{
     margin-left: 150px;
@@ -81,7 +81,7 @@ const Wrapper = styled.nav`
 @media (min-width: 1500px) {
     .title h2{
 	color: white;
-	font-size: 75px;
+	//font-size: 75px;
 	width: 1130px;
 	margin: 30px auto;
 	text-align: center;

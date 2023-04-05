@@ -11,7 +11,9 @@ const Wrapper = styled.nav`
     height: fit-content;
     color: white;
 }
-
+.header{
+	font-size: 30px;
+}
 .button-for-action{
     display: flex;
 }
@@ -143,10 +145,9 @@ nav ul li a{
 
 .hsize1{
 	font-size: 20px;
+	margin-right: 20px;
 }
-.header{
-	font-size: 30px;
-}
+
 .logo{
 	margin-bottom: 20px;
 	text-align: center;

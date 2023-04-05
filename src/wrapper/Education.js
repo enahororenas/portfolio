@@ -3,7 +3,7 @@ const Wrapper = styled.nav`
 .education-section{
     background: #101010;
 }
-
+.header{font-size: 30px;}
 .section-title{
 display: flex;
 text-align: center;
@@ -21,7 +21,7 @@ justify-content: center;
 .section-title h2{
     margin-top: 20px;
     color: white;
-	font-size: 75px;
+//	font-size: 75px;
 	width: 1130px;
     }
 }
