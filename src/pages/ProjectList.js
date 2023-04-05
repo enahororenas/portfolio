@@ -26,16 +26,16 @@ const ProjectList = ({ name, des, projectlink, techused }) => {
           {techused &&
             techused.map((tech, index) => (
               <div key={index}>
-                <div className="skill" >
+                <div className="stack" >
                   <p>{tech.techname}</p>
                 </div>
               </div>
             ))}
         </div>
       {projectlink &&
-      <div className="cover">
-        <div className="demo" onClick={() => openInNewTab(projectlink)}>
-          <p className='link'><u>Visit Website</u></p>
+      <div className="link-parent">
+        <div  onClick={() => openInNewTab(projectlink)}>
+          <p className='link'><u>VISIT WEBSITE</u></p>
           </div>
       </div> }
             

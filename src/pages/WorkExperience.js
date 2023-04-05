@@ -11,8 +11,12 @@ const WorkExperience = () => {
       companyname: "Intel",
       position: "Software Engineer",
       des: [
+      'Collaborate with a team of developers to design and implement high quality software solutions',
+      'Participate in the testing and debugging of software to ensure it meets customer requirements',
+      'Implemented API\'s to integrate app functionality with external services',
       'Developed a web app to store net properties in PostgreSql database. (React, Python, PostgreSql).',
       'Developed a web app to analyze the project database hourly and generate report of possible errors. A waiver methodology is also implemented to enable designers waive violations (React, Python, PostgreSql).',
+      'Maintain existing codebases, fix bugs and implement new features',
       'Developed API’s for querying waveform database and processing wave reports (Python).',
       'Developed a GUI platform to enable designers cross probe waveforms and circuits (Python).',
       'Developed API to rename and enforce naming convention for a full-chip database while maintaining connectivity (Python, Perl).',
@@ -60,7 +64,7 @@ const WorkExperience = () => {
     <div className="workexperience-section"  id="workexperience">
 
 		<div className="title">
-			<h2>Work Experience</h2>
+			<h2 className="header">Work Experience</h2>
 		</div>
 
       <div className="timeline-section">

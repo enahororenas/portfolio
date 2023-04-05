@@ -28,7 +28,7 @@ const Education = () => {
     <div className= "education-section" id="education">
 
     <div className="section-title">
-        <h2>Education</h2>
+        <h2 className="header">Education</h2>
       </div>
 
 
